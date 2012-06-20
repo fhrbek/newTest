@@ -1,0 +1,23 @@
+{
+  "metaVersion": "1.1.3",
+  "puppetVersion": "PUPPET27",
+  "environments": [
+    {
+      "siteLocation": "manifests",
+      "moduleLocations": [
+        "modules"
+      ],
+      "name": "production"
+    }
+  ],
+  "tests": [
+    {
+      "outputs": [],
+      "name": "all_green"
+    },
+    {
+      "outputs": [],
+      "name": "not_executable"
+    }
+  ]
+}
