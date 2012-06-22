@@ -12,8 +12,8 @@
   ],
   "tests": [
     {
-      "rakeFile": "modules/stdlib/Rakefile",
-      "rakeTask": "test",
+      "rakeFile": "rakewrappers/stdlib.rake",
+      "rakeTask": "default",
       "outputs": [],
       "name": "stdlib_module"
     }
