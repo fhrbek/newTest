@@ -12,12 +12,10 @@
   ],
   "tests": [
     {
+      "rakeFile": "modules/stdlib/Rakefile",
+      "rakeTask": "test",
       "outputs": [],
-      "name": "all_green"
-    },
-    {
-      "outputs": [],
-      "name": "not_executable"
+      "name": "stdlib_module"
     }
   ]
 }
