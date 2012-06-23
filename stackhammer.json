@@ -14,7 +14,12 @@
     {
       "rakeFile": "rakewrappers/stdlib.rake",
       "rakeTask": "default",
-      "outputs": [],
+      "outputs": [
+        {
+          "location": "modules/stdlib/spec/reports",
+          "name": "all_tests"
+        }
+      ],
       "name": "stdlib_module"
     }
   ]
